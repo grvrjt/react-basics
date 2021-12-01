@@ -1,5 +1,7 @@
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
+import Message from "./components/Message";
+
 import "./App.css";
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
       </Welcome>
       <Welcome name="Saurav" />
       <Welcome name="Kaurav" />
+      <Message />
     </div>
   );
 }
