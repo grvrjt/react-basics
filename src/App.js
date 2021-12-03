@@ -5,7 +5,7 @@ import Counter from "./components/Counter";
 import ClassClick from "./components/ClassClick";
 import FunctionClick from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
-
+import ParentComponent from "./components/ParentComponent";
 import "./App.css";
 
 function App() {
@@ -28,10 +28,11 @@ function App() {
       <Welcome name="Kaurav" />
       <Message />
       <Counter /> */}
-
+      {/* 
       <FunctionClick />
       <ClassClick />
-      <EventBind />
+      <EventBind /> */}
+      <ParentComponent />
     </div>
   );
 }
