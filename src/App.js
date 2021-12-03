@@ -2,8 +2,10 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
-import ClassClick from './components/ClassClick';
-import FunctionClick from './components/FunctionClick';
+import ClassClick from "./components/ClassClick";
+import FunctionClick from "./components/FunctionClick";
+import EventBind from "./components/EventBind";
+
 import "./App.css";
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
 
       <FunctionClick />
       <ClassClick />
+      <EventBind />
     </div>
   );
 }
