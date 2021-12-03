@@ -1,7 +1,7 @@
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
-
+import Counter from "./components/Counter";
 import "./App.css";
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <Welcome name="Saurav" />
       <Welcome name="Kaurav" />
       <Message />
+      <Counter />
     </div>
   );
 }
