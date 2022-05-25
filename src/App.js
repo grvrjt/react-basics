@@ -30,10 +30,10 @@ function App() {
       <Welcome name="Kaurav" />
       <Message />
       <Counter /> */}
-      {/* 
+      
       <FunctionClick />
       <ClassClick />
-      <EventBind /> */}
+      <EventBind />
       {/* <ParentComponent /> */}
 
       <UserGreeting />
